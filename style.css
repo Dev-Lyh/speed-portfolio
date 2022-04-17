@@ -91,7 +91,27 @@ h2 {
   background: linear-gradient(to right, #02fc33, #0ce9ab);
 }
 .a_button:hover {
+  color: #181818;
   background-color: transparent;
+}
+footer{ 
+  padding: 2rem 0;
+  color: white;
+  text-align: center;
+  border-top: .1rem solid #ffffff40;
+}
+.footer_powered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer_powered p {
+  font-size: 2rem;
+  margin-right: 2rem;
+}
+.footer_powered img {
+  width: 4rem;
+  height: 4rem;
 }
 
 @media screen and (max-width: 968px) {
