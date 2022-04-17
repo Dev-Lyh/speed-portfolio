@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;300;400;600;800&family=Kanit:wght@100;300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;300;400;600;800&family=Kanit:wght@100;300&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -8,9 +8,9 @@ html {
   font-size: 62.5%;
 }
 body {
-    font-size: 1.6rem;
-    background-color: #181818;
-    font-family: "JetBrains Mono", monospace;
+  font-size: 1.6rem;
+  background-color: #181818;
+  font-family: "JetBrains Mono", monospace;
 }
 main {
   padding: 6rem 0;
@@ -20,23 +20,22 @@ main {
   justify-content: center;
 }
 .img_profile {
-  width: 15rem;
-  height: 15rem;
+  width: 35rem;
+  height: 35rem;
 }
 h2 {
-  background: #FC020E;
-background: -webkit-linear-gradient(to right, #FC020E 0%, #E90C76 100%);
-background: -moz-linear-gradient(to right, #FC020E 0%, #E90C76 100%);
-background: linear-gradient(to right, #FC020E 0%, #E90C76 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-text-align: center;
-margin-top: 2rem;
-
+  background: #fc020e;
+  background: -webkit-linear-gradient(to right, #fc020e 0%, #e90c76 100%);
+  background: -moz-linear-gradient(to right, #fc020e 0%, #e90c76 100%);
+  background: linear-gradient(to right, #fc020e 0%, #e90c76 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-top: 2rem;
 }
 .thanks_message {
   font-style: italic;
-  color: #EBEBEB;
+  color: #ebebeb;
   text-align: center;
   font-size: 1.4rem;
   margin-bottom: 2rem;
@@ -61,7 +60,6 @@ margin-top: 2rem;
   font-family: "Kanit", sans-serif;
   font-weight: 300;
   transition: background-color 1s;
-
 }
 .a_button i {
   margin-right: 1rem;
@@ -69,41 +67,28 @@ margin-top: 2rem;
 }
 .border_gradient {
   width: 85%;
-  padding: .4rem;
+  padding: 0.4rem;
   margin-bottom: 2rem;
 }
 .border_gradient._github {
-  background: 
-    linear-gradient(
-      to right, 
-      #5A5B67, 
-      #ADADAD
-    );
+  background: linear-gradient(to right, #5a5b67, #adadad);
 }
 .border_gradient._linkedin {
-  background: 
-    linear-gradient(
-      to right, 
-      #1F2EE4, 
-      #8C95FF
-    );
+  background: linear-gradient(to right, #1f2ee4, #8c95ff);
 }
 .border_gradient._projects {
-  background: 
-    linear-gradient(
-      to right, 
-      #FC020E, 
-      #E90C76
-    );
+  background: linear-gradient(to right, #fc020e, #e90c76);
 }
 .border_gradient._about {
-  background: 
-    linear-gradient(
-      to right, 
-      #02FC33, 
-      #0CE9AB
-    );
+  background: linear-gradient(to right, #02fc33, #0ce9ab);
 }
 .a_button:hover {
   background-color: transparent;
+}
+
+@media screen and (max-width: 968px) {
+  .img_profile {
+    width: 15rem;
+    height: 15rem;
+  }
 }
