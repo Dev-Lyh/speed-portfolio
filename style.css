@@ -23,6 +23,14 @@ main {
   width: 35rem;
   height: 35rem;
 }
+h1 {
+  color: #FFFFFF70;
+  font-weight: 300;
+  font-size: 1.8rem;
+  font-family: 'Kanit', sans-serif;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
 h2 {
   background: #fc020e;
   background: -webkit-linear-gradient(to right, #fc020e 0%, #e90c76 100%);
